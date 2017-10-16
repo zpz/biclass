@@ -59,8 +59,6 @@ from Cython.Build import cythonize
 numpy = import_min_module('numpy', '1.12.0')
 numpy_include_dir = numpy.get_include()
 
-import_strict_module('pybind11', '2.1.0')
-
 
 cy_options = {
     'annotate': True,
